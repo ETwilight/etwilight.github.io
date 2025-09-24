@@ -10,7 +10,7 @@ const BioPage = () => {
         gap: "1.25rem",
       }}
     >
-      <h1 style={{ fontSize: "2rem" }}>Bio</h1>
+      <h1 style={{ fontSize: "2rem" }}>About</h1>
       <p>
         Hello! I'm Brian Guo. I combine a passion for orchestral conducting, mathematical
         research, and software creativity.

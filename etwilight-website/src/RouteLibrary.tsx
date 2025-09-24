@@ -5,7 +5,8 @@ import BlogPage from "@/pages/BlogPage.tsx";
 import ResearchPage from "@/pages/ResearchPage.tsx";
 import MusicPage from "@/pages/MusicPage.tsx";
 import ProjectsPage from "@/pages/ProjectsPage.tsx";
-import BioPage from "@/pages/BioPage.tsx";
+import AboutPage from "@/pages/AboutPage";
+import MiscPage from "@/pages/MiscPage.tsx";
 
 const RouteLibrary = () => {
   return (
@@ -15,7 +16,8 @@ const RouteLibrary = () => {
       <Route path="/research" element={<ResearchPage />} />
       <Route path="/music" element={<MusicPage />} />
       <Route path="/projects" element={<ProjectsPage />} />
-      <Route path="/bio" element={<BioPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/misc" element={<MiscPage />} />
     </Routes>
   );
 };
