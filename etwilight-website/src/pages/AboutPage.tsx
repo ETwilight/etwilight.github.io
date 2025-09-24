@@ -1,4 +1,4 @@
-const BioPage = () => {
+const AboutPage = () => {
   return (
     <main
       style={{
@@ -26,4 +26,4 @@ const BioPage = () => {
   );
 };
 
-export default BioPage;
+export default AboutPage;
