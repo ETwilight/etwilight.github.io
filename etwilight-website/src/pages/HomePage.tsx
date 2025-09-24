@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
   return (
     <main
@@ -10,11 +12,11 @@ const HomePage = () => {
       }}
     >
       <h1 style={{ fontSize: "2.5rem", textAlign: "center" }}>
-        Welcome to My Personal Website
+        Brian Guo
       </h1>
       <p style={{ maxWidth: "90%", textAlign: "center", fontSize: "1.125rem" }}>
-        Explore who I am — a researcher, conductor, and creative technologist. Navigate to each
-        section to learn more.
+        Explore who I am — a researcher, conductor, and creative technologist.
+        Navigate to each section to learn more.
       </p>
       <ul
         style={{
@@ -26,11 +28,21 @@ const HomePage = () => {
           gap: "0.75rem",
         }}
       >
-        <li>→ Bio</li>
-        <li>→ Blog</li>
-        <li>→ Research</li>
-        <li>→ Music</li>
-        <li>→ Projects</li>
+        <li>
+          <Link to="/bio">→ Bio</Link>
+        </li>
+        <li>
+          <Link to="/blog">→ Blog</Link>
+        </li>
+        <li>
+          <Link to="/research">→ Research</Link>
+        </li>
+        <li>
+          <Link to="/music">→ Music</Link>
+        </li>
+        <li>
+          <Link to="/projects">→ Projects</Link>
+        </li>
       </ul>
     </main>
   );

@@ -19,7 +19,7 @@ const MusicPage = () => {
         I focus on detailed timbral control, narrative structure, and emotionally immersive performance.
       </p>
       <p>
-        → <a href="https://urfo.example.com" target="_blank">Visit URFO</a>
+        → <a href="https://unrestrainedconcert.github.io" target="_blank">Visit URFO</a>
       </p>
     </main>
   );
