@@ -55,7 +55,7 @@ const HomePage = () => {
         alignItems: "center",
         justifyContent: "center",
         padding: "2rem",
-        marginTop: "2rem",
+        marginTop: "1rem",
       }}
     >
       <div
