@@ -1,10 +1,11 @@
 import { useThemeLang } from "@/hooks/useThemeLang";
 import IconLink from "@/components/IconLink";
 
-import githubIcon from "@/assets/icons/brands/github.svg";
-import linkedinIcon from "@/assets/icons/brands/linkedin.svg";
-import discordIcon from "@/assets/icons/brands/discord.svg";
-import emailIcon from "@/assets/icons/brands/email.svg";
+// 用 ReactComponent 方式导入 SVG（需要 vite-plugin-svgr）
+import GithubIcon from "@/assets/icons/brands/github.svg?react";
+import LinkedinIcon from "@/assets/icons/brands/linkedin.svg?react";
+import DiscordIcon from "@/assets/icons/brands/discord.svg?react";
+import EmailIcon from "@/assets/icons/brands/email.svg?react";
 
 export default function BotBar() {
   const { lang } = useThemeLang();
@@ -18,32 +19,32 @@ export default function BotBar() {
   const links = [
     {
       href: "https://github.com/ETwilight",
-      icon: githubIcon,
+      icon: GithubIcon,
       alt: "GitHub",
       label: { en: "GitHub", zh: "GitHub", de: "GitHub" },
     },
     {
       href: "https://www.linkedin.com/in/peiyang-guo-8bb84a252/",
-      icon: linkedinIcon,
+      icon: LinkedinIcon,
       alt: "LinkedIn",
       label: { en: "LinkedIn", zh: "领英", de: "LinkedIn" },
     },
     {
       href: "mailto:hellobrian18@gmail.com",
-      icon: emailIcon,
+      icon: EmailIcon,
       alt: "Email",
       label: { en: "Email", zh: "电子邮箱", de: "E-Mail" },
     },
     {
       href: "http://discord.com/users/954016281525383220",
-      icon: discordIcon,
+      icon: DiscordIcon,
       alt: "Discord",
       label: { en: "Discord", zh: "Discord", de: "Discord" },
     },
   ];
 
   return (
-    <footer className="sticky top-[100vh] bg-gray-100 dark:bg-gray-900 text-center py-4 text-sm text-black dark:text-white">
+    <footer className="sticky top-[100vh] bg-gray-100 dark:bg-black text-center py-4 text-sm text-black dark:text-white">
       <p>Copyright © 2025 Peiyang Guo. {copyrightText[lang]}</p>
       <div className="flex justify-center gap-6 mt-2">
         {links.map(({ href, icon, alt, label }) => (

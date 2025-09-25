@@ -1,22 +1,24 @@
+import { ComponentType, SVGProps } from "react";
+
 interface IconLinkProps {
   href: string;
-  icon: string; // path to imported SVG
+  icon: ComponentType<SVGProps<SVGSVGElement>>;
   alt: string;
-  label?: string; // optional text label
+  label?: string;
 }
 
-export default function IconLink({ href, icon, alt, label }: IconLinkProps) {
+export default function IconLink({ href, icon: Icon, alt, label }: IconLinkProps) {
   return (
     <a
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="flex items-center gap-2 hover:underline"
+      className="group flex items-center gap-0.5 hover:underline"
     >
-      <img
-        src={icon}
-        alt={alt}
-        className="w-5 h-5 opacity-80 hover:opacity-100 transition"
+      <Icon
+        role="img"
+        aria-label={alt}
+        className="w-5 h-5 text-black dark:text-white opacity-80 transition group-hover:opacity-100"
       />
       {label && <span>{label}</span>}
     </a>

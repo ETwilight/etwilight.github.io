@@ -38,15 +38,15 @@ export default function TopNav() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full flex justify-center shadow-md z-50 bg-white dark:bg-black text-black dark:text-white">
-      <div className="w-4/5 flex items-center justify-between py-3">
-        {/* 1. Logo with home link */}
-        <Link to="/">
+    <nav className="fixed top-0 left-0 w-full shadow-md z-50 text-black dark:text-white">
+      <div className="w-4/5 mx-auto flex items-center justify-between py-3">
+        {/* 1. Logo */}
+        <Link to="/" className="flex-shrink-0">
           <img src={getIconSrc()} alt="logo" className="h-20 w-auto cursor-pointer" />
         </Link>
 
-        {/* 2. Nav Items */}
-        <ul className="flex gap-12 text-base font-semibold">
+        {/* 2. Nav Items 居中 */}
+        <ul className="flex-1 flex justify-center gap-12 text-base font-semibold">
           {navItems.map(({ path, label }) => (
             <li key={path}>
               <Link to={path} className="cursor-pointer hover:underline">
@@ -56,19 +56,12 @@ export default function TopNav() {
           ))}
         </ul>
 
-        {/* 3. Right controls */}
-        <div className="flex items-center gap-6">
-          {/* Language Switch */}
+        {/* 3. Controls */}
+        <div className="flex-shrink-0 flex items-center gap-6">
           <LangDropdown />
-
-          {/* Dark Mode Toggle */}
           <button
             onClick={toggleDarkMode}
-            className={`p-2 rounded-md cursor-pointer transition-colors duration-300 ${
-              darkMode
-                ? "bg-black text-white hover:bg-gray-800"
-                : "bg-white text-black hover:bg-gray-100"
-            }`}
+            className={`p-2 rounded-md cursor-pointer transition-colors duration-300 text-black dark:text-white`}
           >
             {darkMode ? <Sun /> : <Moon />}
           </button>
@@ -76,4 +69,5 @@ export default function TopNav() {
       </div>
     </nav>
   );
+
 }
