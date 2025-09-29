@@ -39,6 +39,13 @@
     "ensembles": ["Metropolitan Opera"]
   },
   {
+  "name": "Boston Symphony Hall",
+  "gcjLat": 42.3429,
+  "gcjLng": -71.0859,
+  "imageUrl": "/images/boston_symphony_hall.jpg",
+  "ensembles": ["Boston Symphony Orchestra"]
+  },
+  {
     "name": "Krannert Center for the Performing Arts",
     "gcjLat": 40.1075,
     "gcjLng": -88.2272,

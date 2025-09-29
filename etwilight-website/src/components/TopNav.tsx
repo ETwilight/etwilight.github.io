@@ -53,11 +53,15 @@ export default function TopNav() {
           </Link>
 
           <ul className="flex-1 flex justify-center gap-12 text-base font-semibold">
-            {navItems.map(({ path, label }) => (
+            {navItems.map(({ path, label, display }) => (
               <li key={path}>
-                <Link to={path} className="cursor-pointer hover:underline">
-                  {label[lang]}
-                </Link>
+                {display ? (
+                  <Link to={path} className="cursor-pointer hover:underline">
+                    {label[lang]}
+                  </Link>
+                ) : (
+                  <span className="cursor-default text-gray-500">{label[lang]}</span>
+                )}
               </li>
             ))}
           </ul>
@@ -95,11 +99,16 @@ export default function TopNav() {
         </Link>
 
         <ul className="flex-1 flex justify-center gap-12 text-base font-semibold">
-          {navItems.map(({ path, label }) => (
+          {/* If display is false, do not link but still reserve the space */}
+          {navItems.map(({ path, label, display }) => (
             <li key={path}>
-              <Link to={path} className="cursor-pointer hover:underline">
-                {label[lang]}
-              </Link>
+              {display ? (
+                <Link to={path} className="cursor-pointer hover:underline">
+                  {label[lang]}
+                </Link>
+              ) : (
+                <span className="cursor-default text-gray-500">{label[lang]}</span>
+              )}
             </li>
           ))}
         </ul>

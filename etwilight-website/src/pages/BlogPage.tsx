@@ -9,7 +9,7 @@ const BlogPage = () => {
     >
       <h1 style={{ fontSize: "2rem" }}>Blog</h1>
       <p>
-        Thoughts on research, music, programming, and everything in between. Markdown-based posts coming soon.
+        Coming soon...
       </p>
     </main>
   );

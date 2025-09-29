@@ -1,4 +1,4 @@
-import ConcertMap from "@/components/ConcertMap";
+import ConcertMapWrapper from "@/components/ConcertMapWrapper";
 
 const MusicPage = () => {
   return (
@@ -65,18 +65,19 @@ const MusicPage = () => {
         <h1 style={{ fontSize: "2rem" }}>As a listener</h1>
         <p>
           Here's a map of the concert halls where I heard each orchestra live
-          for the first time. Here's a map of the concert halls where I heard each orchestra live
           for the first time.
         </p>
         <div
           style={{
-            height: "70vh",
             width: "100%",
+            aspectRatio: "16 / 9",
             borderRadius: "0.75rem",
             overflow: "hidden",
+            minHeight: "300px",
+            maxHeight: "500px",
           }}
         >
-          <ConcertMap />
+          <ConcertMapWrapper />
         </div>
       </div>
     </main>
