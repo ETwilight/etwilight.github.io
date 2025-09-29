@@ -1,0 +1,8 @@
+[
+  { "path": "/about",    "label": { "en": "ABOUT", "zh": "关于", "de": "ÜBER" } },
+  { "path": "/research", "label": { "en": "RESEARCH", "zh": "研究", "de": "FORSCHUNG" } },
+  { "path": "/music",    "label": { "en": "MUSIC", "zh": "音乐", "de": "MUSIK" } },
+  { "path": "/blog",     "label": { "en": "BLOG", "zh": "博客", "de": "BLOG" } },
+  { "path": "/projects", "label": { "en": "PROJECTS", "zh": "项目", "de": "PROJEKTE" } },
+  { "path": "/misc",     "label": { "en": "MISCELLANEOUS", "zh": "杂项", "de": "VERSCHIEDENES" } }
+]

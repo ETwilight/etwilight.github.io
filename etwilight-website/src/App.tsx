@@ -9,7 +9,7 @@ const App = () => {
       <div className="min-h-screen flex flex-col bg-white text-gray-900 dark:bg-[#242424] dark:text-white">
         <TopNav />
         <main className="flex-1 pt-20 flex justify-center">
-          <div className="w-full max-w-[75%] text-center">
+          <div className="w-full text-center">
             <RouteLibrary />
           </div>
         </main>

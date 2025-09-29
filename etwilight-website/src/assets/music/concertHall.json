@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Chicago Symphony Center",
+    "gcjLat": 41.8796,
+    "gcjLng": -87.6233,
+    "imageUrl": "/images/chicago_symphony.jpg",
+    "ensembles": [
+      "Chicago Symphony Orchestra",
+      "Symphonieorchester des Bayerischen Rundfunks (Tour at Chicago)",
+      "Berliner Philharmoniker (Tour at Chicago)"
+    ]
+  },
+  {
+    "name": "Chicago Civic Opera House",
+    "gcjLat": 41.8831,
+    "gcjLng": -87.6395,
+    "imageUrl": "/images/lyric_opera.jpg",
+    "ensembles": ["Lyric Opera of Chicago"]
+  },
+  {
+    "name": "Davies Symphony Hall",
+    "gcjLat": 37.777,
+    "gcjLng": -122.4202,
+    "imageUrl": "/images/davies_symphony.jpg",
+    "ensembles": ["San Francisco Symphony Orchestra"]
+  },
+  {
+    "name": "Carnegie Hall",
+    "gcjLat": 40.7651,
+    "gcjLng": -73.9799,
+    "imageUrl": "/images/carnegie_hall.jpg",
+    "ensembles": ["New York String Orchestra"]
+  },
+  {
+    "name": "Metropolitan Opera House",
+    "gcjLat": 40.7727,
+    "gcjLng": -73.9843,
+    "imageUrl": "/images/met_opera.jpg",
+    "ensembles": ["Metropolitan Opera"]
+  },
+  {
+    "name": "Krannert Center for the Performing Arts",
+    "gcjLat": 40.1075,
+    "gcjLng": -88.2272,
+    "imageUrl": "/images/krannert_center.jpg",
+    "ensembles": [
+      "Urbana-Champaign Symphony Orchestra",
+      "Sinfonia Da Camera",
+      "London Philharmonic Orchestra (Tour at Champaign)"
+    ]
+  },
+  {
+    "name": "Smith Center for the Performing Arts",
+    "gcjLat": 36.1663,
+    "gcjLng": -115.1493,
+    "imageUrl": "/images/smith_center.jpg",
+    "ensembles": ["Las Vegas Philharmonic Orchestra"]
+  },
+  {
+    "name": "National Center for the Performing Arts (Beijing)",
+    "gcjLat": 39.903,
+    "gcjLng": 116.383,
+    "imageUrl": "/images/ncpa_beijing.jpg",
+    "ensembles": ["China NCPA Orchestra"]
+  },
+  {
+    "name": "Shanghai Grand Theatre",
+    "gcjLat": 31.2336,
+    "gcjLng": 121.4737,
+    "imageUrl": "/images/shanghai_grand.jpg",
+    "ensembles": ["Shanghai Philharmonic Orchestra"]
+  },
+  {
+    "name": "Shanghai Symphony Hall",
+    "gcjLat": 31.2077,
+    "gcjLng": 121.4562,
+    "imageUrl": "/images/shanghai_symphony.jpg",
+    "ensembles": ["Shanghai Symphony Orchestra"]
+  },
+  {
+    "name": "Shanghai Concert Hall",
+    "gcjLat": 31.2285,
+    "gcjLng": 121.478,
+    "imageUrl": "/images/shanghai_concert_hall.jpg",
+    "ensembles": ["London Philharmonic Orchestra (Tour at Shanghai)"]
+  },
+  {
+    "name": "Shanghai Oriental Art Center",
+    "gcjLat": 31.2224,
+    "gcjLng": 121.5427,
+    "imageUrl": "/images/oriental_art_center.jpg",
+    "ensembles": ["Shanghai Philharmonic Orchestra"]
+  }
+]
