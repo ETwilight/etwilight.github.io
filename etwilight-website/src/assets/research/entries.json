@@ -1,0 +1,68 @@
+[
+  {
+    "id": "thesis-gda",
+    "role": "Thesis Researcher",
+    "projectTitle": "Robust Gradual Domain Adaptation with Stable Pseudo-Labeling",
+    "institution": "UIUC",
+    "location": "Urbana, IL",
+    "start": "06/2025",
+    "end": "05/2026",
+    "supervisor": "Prof. Han Zhao",
+    "description": "Developing robust Gradual Domain Adaptation (GDA) methods that address pseudo-label instability in GOAT by combining an EMA teacher with temperature-scaled pseudo-labels and contrastive learning, improving accuracy and convergence stability across intermediate domains."
+},
+  {
+    "id": "hypergraph-fractional-chromatic",
+    "role": "Research Assistant",
+    "projectTitle": "Fractional Chromatic Numbers of Random Hypergraph Subgraphs",
+    "institution": "UIUC",
+    "location": "Urbana, IL",
+    "start": "06/2024",
+    "end": "01/2025",
+    "supervisor": "Dr. Peter Bradshaw",
+    "description": "Extended the Mohar–Wu probabilistic framework from graphs to hypergraphs by introducing a weight-based vertex ordering and left-neighbor counts, obtaining high-probability lower bounds on fractional chromatic numbers of random subgraphs and analyzing limitations of high-distance extensions."
+  },
+  {
+    "id": "quadruped-locomotion-knowledge-distillation",
+    "role": "Research Assistant",
+    "projectTitle": "Knowledge-Distillation Skill Transfer for Quadruped Locomotion",
+    "institution": "Shanghai Jiao Tong University, Apex Lab",
+    "location": "Shanghai, China",
+    "start": "05/2023",
+    "end": "08/2024",
+    "supervisor": "Prof. Weinan Zhang",
+    "description": "Designed a knowledge-distillation based skill-transfer mechanism that enables quadruped robots to acquire new navigation policies without catastrophic forgetting, built training pipelines in unstructured environments, and validated robustness, stability, and terrain adaptability."
+  },
+  {
+    "id": "cot-transformers-theory",
+    "role": "Student Researcher",
+    "projectTitle": "Expressive Power of Chain-of-Thought Transformers",
+    "institution": "UIUC",
+    "location": "Champaign, IL",
+    "start": "09/2025",
+    "end": "12/2025",
+    "supervisor": "Prof. Tong Zhang",
+    "description": "Analyzed the theoretical behaviors of chain-of-thought reasoning in Transformers by reproducing lower-bound results showing that linear CoT steps allow Transformers to simulate every DFA and bounded-step Turing machine, and examined what structural assumptions are needed to make such mechanisms realistic and learnable."
+  },
+  {
+    "id": "cfr-theory",
+    "role": "Student Researcher",
+    "projectTitle": "Theoretical Foundations of Counterfactual Regret Minimization",
+    "institution": "UIUC",
+    "location": "Urbana, IL",
+    "start": "10/2024",
+    "end": "12/2024",
+    "supervisor": "Prof. Nan Jiang",
+    "description": "Reconstructed the theory of counterfactual regret minimization in extensive-form games by deriving the decomposition of overall regret into information-set-level counterfactual regrets and re-proving the regret-matching guarantee via Blackwell approachability."
+  },
+  {
+    "id": "energy-based-exploration",
+    "role": "Independent Researcher",
+    "projectTitle": "Energy-Based Exploration with EBGANs and Soft Actor-Critic",
+    "institution": "Shanghai Jiao Tong University, Apex Lab",
+    "location": "Shanghai, China",
+    "start": "05/2020",
+    "end": "10/2021",
+    "supervisor": "Prof. Weinan Zhang",
+    "description": "Developed an energy-based exploration framework that integrates EBGANs with Soft Actor-Critic to estimate state novelty in sparse-reward navigation tasks, deriving an intrinsic reward from an energy maximization view and demonstrating improved exploration efficiency."
+  }
+]
